@@ -14,7 +14,7 @@
 
 ### Spotify Playing 🎧
 
-[<img src="https://novatorem-gamma-ecru.vercel.app/api/spotify-playing" alt="HeyThatWorked Spotify Playing" width="350" />](https://open.spotify.com/user/22clklfo3v3einxx5h277lw4q)
+[<img src="https://novatorem-gamma-ecru.vercel.app/api/spotify-playing" alt="HeyItWorked Spotify Playing" width="350" />](https://open.spotify.com/user/22clklfo3v3einxx5h277lw4q)
 
 ### Connect with me:
 
