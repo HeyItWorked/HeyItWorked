@@ -1,4 +1,4 @@
-### Hi there, I'm Liam - aka [HeyThatWorked][website] 👋
+### Hi there, I'm Liam - aka [HeyItWorked][website] 👋
 
 ![Website](https://img.shields.io/website?label=React%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fliamnguyenn-react-portfolio.netlify.app%2F)
 
