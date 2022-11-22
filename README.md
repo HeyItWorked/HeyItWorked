@@ -2,8 +2,6 @@
 
 ![Website](https://img.shields.io/website?label=React%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fliamnguyenn-react-portfolio.netlify.app%2F)
 
-![Twitter URL](https://img.shields.io/twitter/url?color=1da1fd&label=Follow%20%40HeyWorked&logo=Twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FHeyWorked)
-
 ## I'm a Fourth-Year Computer Science, Coder, Software Developer 🙌
 
 - 🔭 I’m currently polishing my portfolio with projects at [React Portfolio][website]!
