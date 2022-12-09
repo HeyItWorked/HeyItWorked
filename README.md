@@ -2,7 +2,7 @@
 
 ![Website](https://img.shields.io/website?label=React%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fliamnguyenn-react-portfolio.netlify.app%2F)
 
-## Computer Science Graduate from University of Manitoba, specialization in Data Science and Software Engineering 🙌
+## Computer Science Graduate from University of Manitoba 🙌
 
 - 🔭 I’m currently polishing my portfolio with projects at [React Portfolio][website]!
 - 🌱 I’m currently learning as much as I can 🙀
