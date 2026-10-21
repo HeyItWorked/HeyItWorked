@@ -18,11 +18,11 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/3-stats.svg">
-  <img alt="GitHub repository and contribution statistics" src="profile-summary-card-output/github/3-stats.svg" width="49%">
+  <img alt="GitHub repository and contribution statistics" src="profile-summary-card-output/github/3-stats.svg" width="420">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/4-productive-time.svg">
-  <img alt="Distribution of commit times in UTC, not hours worked" src="profile-summary-card-output/github/4-productive-time.svg" width="49%">
+  <img alt="Distribution of commit times in UTC, not hours worked" src="profile-summary-card-output/github/4-productive-time.svg" width="420">
 </picture>
 
 <details>
@@ -30,11 +30,11 @@
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/1-repos-per-language.svg">
-  <img alt="Languages by repository" src="profile-summary-card-output/github/1-repos-per-language.svg" width="49%">
+  <img alt="Languages by repository" src="profile-summary-card-output/github/1-repos-per-language.svg" width="420">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg">
-  <img alt="Languages by commits" src="profile-summary-card-output/github/2-most-commit-language.svg" width="49%">
+  <img alt="Languages by commits" src="profile-summary-card-output/github/2-most-commit-language.svg" width="420">
 </picture>
 </details>
 
