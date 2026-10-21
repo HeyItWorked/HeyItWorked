@@ -44,7 +44,7 @@
 
 A guide to my pinned repositories: interoperability, clinical software, and the tools around them. Forks and upstream projects are labeled below.
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 <strong>01 / Interoperability</strong><br>
