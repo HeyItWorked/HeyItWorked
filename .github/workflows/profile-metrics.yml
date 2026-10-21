@@ -1,0 +1,80 @@
+name: Refresh profile metrics
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/profile-metrics.yml'
+
+permissions: {}
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'HeyItWorked/HeyItWorked' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate dark cards
+        uses: vn7n24fzkq/github-profile-summary-cards@58ec032e39377dd38329bdc1db70074fe74fbb17 # v0.12.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: HeyItWorked
+          THEME: github_dark
+          UTC_OFFSET: '0'
+          EXCLUDE_REPOS: HeyItWorked
+          AUTO_PUSH: 'false'
+
+      # Each upstream invocation removes the entire output directory.
+      - name: Preserve dark cards between generations
+        shell: bash
+        run: mv profile-summary-card-output/github_dark "$RUNNER_TEMP/profile-metrics-dark"
+
+      - name: Generate light cards
+        uses: vn7n24fzkq/github-profile-summary-cards@58ec032e39377dd38329bdc1db70074fe74fbb17 # v0.12.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: HeyItWorked
+          THEME: github
+          UTC_OFFSET: '0'
+          EXCLUDE_REPOS: HeyItWorked
+          AUTO_PUSH: 'false'
+
+      - name: Validate and publish both themes together
+        shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          mv "$RUNNER_TEMP/profile-metrics-dark" profile-summary-card-output/github_dark
+          # Upstream logs per-card failures without failing the action.
+          for theme in github_dark github; do
+            for card in 0-profile-details 1-repos-per-language 2-most-commit-language 3-stats 4-productive-time; do
+              file="profile-summary-card-output/$theme/$card.svg"
+              test -s "$file"
+              grep -q '<svg' "$file"
+            done
+          done
+          git add -- profile-summary-card-output/github_dark/*.svg profile-summary-card-output/github/*.svg
+          if git diff --cached --quiet; then
+            echo 'Profile metrics are unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile metrics'
+          # A normal push rejects concurrent upstream changes instead of overwriting them.
+          git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"

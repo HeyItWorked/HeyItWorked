@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Liam · @HeyItWorked</title>
+  <desc id="description">Open source. Connected care. FHIR · DICOM · clinical tools. A blue and teal modular connection diagram accompanies Liam's profile.</desc>
+  <rect width="880" height="240" fill="#ffffff"/>
+  <rect x="8.5" y="8.5" width="621" height="223" rx="22" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <rect x="642.5" y="8.5" width="229" height="223" rx="22" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="36" y="85" fill="#1f2328" font-size="64" font-weight="700" letter-spacing="-2">Liam</text>
+    <text x="207" y="82" fill="#0969da" font-size="32" font-weight="600" letter-spacing="-0.7">@HeyItWorked</text>
+    <text x="36" y="140" fill="#1f2328" font-size="36" font-weight="600" letter-spacing="-1">Open source. Connected care.</text>
+    <text x="36" y="196" fill="#596779" font-size="30" letter-spacing="-0.5">FHIR · DICOM · clinical tools</text>
+  </g>
+  <g aria-hidden="true">
+    <path d="M705 65H739Q757 65 757 83V100M809 120H777M757 140V157Q757 175 739 175H705" stroke="#8c9eaf" stroke-width="2.5"/>
+    <rect x="673" y="41" width="64" height="48" rx="13" fill="#ddedff" stroke="#54a1f3"/>
+    <path d="M691 57H718M691 65H711M691 73H705" stroke="#0969da" stroke-width="3" stroke-linecap="round"/>
+    <rect x="737" y="100" width="40" height="40" rx="12" fill="#daf4ed" stroke="#27a791"/>
+    <path d="M749 120H765M757 112V128" stroke="#087f72" stroke-width="3" stroke-linecap="round"/>
+    <rect x="797" y="96" width="48" height="48" rx="13" fill="#ddedff" stroke="#54a1f3"/>
+    <rect x="809" y="108" width="24" height="24" rx="5" stroke="#0969da" stroke-width="2"/>
+    <circle cx="821" cy="120" r="4" fill="#0969da"/>
+    <rect x="673" y="151" width="64" height="48" rx="13" fill="#daf4ed" stroke="#27a791"/>
+    <path d="M690 175L700 165L710 175L700 185Z" stroke="#087f72" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M711 175H720" stroke="#087f72" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="757" cy="65" r="3" fill="#8c9eaf"/>
+    <circle cx="821" cy="175" r="3" fill="#8c9eaf"/>
+    <path d="M815 175H781" stroke="#d1d9e0" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
