@@ -38,7 +38,7 @@
 </picture>
 </details>
 
-<sub>Updated daily with <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a> · Public-data totals may differ from GitHub's contribution graph · Commit times in UTC, not coding hours · Language mix, not proficiency.</sub>
+<sub>Last successful public-activity snapshot from <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a> · Automatic refresh paused while this profile is private · Commit times in UTC, not coding hours · Language mix, not proficiency.</sub>
 
 ## On my workbench
 
