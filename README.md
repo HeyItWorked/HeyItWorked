@@ -15,8 +15,9 @@ I work on healthcare software and the small tools around it. Most of my open-sou
 
 - **[Nocturne](https://github.com/nightscout/nocturne/pull/2267)** — Made the C# time-query echo use the same filter parsing as the time endpoints, with regression tests for repeated parameters and other edge cases. [Merged PRs](https://liamnguyenn.com/portfolio/nocturne/) also cover API capability reporting and shared test setup.
 - **[VetLog](https://github.com/josdem/py-vetlog-calendar/pull/150)** — Fixed Python reminder filtering so pets with existing medical logs stay out of the missing-log list. The test includes a household where only one pet needs a reminder.
+- **[CARLOS EMR](https://github.com/carlos-emr/carlos/pull/5123)** — Fixed a JavaScript typo in the Mental Health Referral and Assessment forms. A [second merged PR](https://github.com/carlos-emr/carlos/pull/5124) removed a missing stylesheet request from the Position Hazard form; browser checks cover both fixes.
 
-I also have proposals open for [Firely .NET SDK](https://github.com/FirelyTeam/firely-net-sdk/pull/3643), [fo-dicom](https://github.com/fo-dicom/fo-dicom/pull/2197), and [CARLOS EMR](https://github.com/carlos-emr/carlos/pull/5123). Those are **under review**, not shipped fixes.
+I also have proposals open for [Firely .NET SDK](https://github.com/FirelyTeam/firely-net-sdk/pull/3643) and [fo-dicom](https://github.com/fo-dicom/fo-dicom/pull/2197). Those are **under review**, not shipped fixes.
 
 ## Things I build
 
