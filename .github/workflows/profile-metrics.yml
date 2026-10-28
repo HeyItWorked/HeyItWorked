@@ -49,8 +49,8 @@ jobs:
             test -s "$file"
             grep -q '<svg' "$file"
           done
-          # -A also stages removal of the old github/ and github_dark/ folders, which upstream wipes.
-          git add -A -- profile-summary-card-output
+          # -A also stages removal of any tracked svg upstream wiped; the generated README.md previews stay out.
+          git add -A -- 'profile-summary-card-output/*.svg'
           if git diff --cached --quiet; then
             echo 'Profile metrics are unchanged.'
             exit 0
