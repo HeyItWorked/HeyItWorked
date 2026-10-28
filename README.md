@@ -27,30 +27,15 @@ I also have proposals open for [Firely .NET SDK](https://github.com/FirelyTeam/f
 
 ## GitHub activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/0-profile-details.svg">
-  <img alt="GitHub contribution history and profile summary for HeyItWorked" src="profile-summary-card-output/github/0-profile-details.svg" width="100%">
-</picture>
+<img alt="GitHub contribution history and profile summary for HeyItWorked" src="profile-summary-card-output/zenburn/0-profile-details.svg" width="100%">
 
 <details>
 <summary>More activity cards</summary>
 <br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/3-stats.svg">
-  <img alt="GitHub repository and contribution statistics" src="profile-summary-card-output/github/3-stats.svg" width="420">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/4-productive-time.svg">
-  <img alt="Distribution of commit times in UTC, not hours worked" src="profile-summary-card-output/github/4-productive-time.svg" width="420">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/1-repos-per-language.svg">
-  <img alt="Languages by repository" src="profile-summary-card-output/github/1-repos-per-language.svg" width="420">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg">
-  <img alt="Languages by commits" src="profile-summary-card-output/github/2-most-commit-language.svg" width="420">
-</picture>
+<img alt="GitHub repository and contribution statistics" src="profile-summary-card-output/zenburn/3-stats.svg" width="420">
+<img alt="Distribution of commit times in UTC, not hours worked" src="profile-summary-card-output/zenburn/4-productive-time.svg" width="420">
+<img alt="Languages by repository" src="profile-summary-card-output/zenburn/1-repos-per-language.svg" width="420">
+<img alt="Languages by commits" src="profile-summary-card-output/zenburn/2-most-commit-language.svg" width="420">
 </details>
 
 <sub>Cards show the last successful public-activity snapshot from <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a>. Commit times use UTC, not hours worked; language mix is not proficiency.</sub>
