@@ -39,13 +39,4 @@ I'm Liam, based in Massachusetts. I work on healthcare software (FHIR and HL7 in
 
 <img alt="GitHub contribution history and profile summary for HeyItWorked" src="profile-summary-card-output/zenburn/0-profile-details.svg" width="100%">
 
-<details>
-<summary>More activity cards</summary>
-<br>
-<img alt="GitHub repository and contribution statistics" src="profile-summary-card-output/zenburn/3-stats.svg" width="420">
-<img alt="Distribution of commit times in UTC, not hours worked" src="profile-summary-card-output/zenburn/4-productive-time.svg" width="420">
-<img alt="Languages by repository" src="profile-summary-card-output/zenburn/1-repos-per-language.svg" width="420">
-<img alt="Languages by commits" src="profile-summary-card-output/zenburn/2-most-commit-language.svg" width="420">
-</details>
-
-<sub>Cards show the latest public-activity snapshot from <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a>. Commit times are in UTC, not working hours, and the language mix isn't a measure of skill.</sub>
+<sub>The card shows the latest public-activity snapshot from <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a>.</sub>
