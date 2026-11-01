@@ -35,12 +35,6 @@ I'm Liam, based in Massachusetts. I work on healthcare software (FHIR and HL7 in
 - **[CARLOS EMR](https://github.com/carlos-emr/carlos/pull/5123)** · open-source EMR for Canadian healthcare: corrected a JavaScript name error in the Mental Health Referral and Assessment forms, and [stopped a missing-stylesheet request](https://github.com/carlos-emr/carlos/pull/5124) in the Position Hazard form. Browser checks cover both.
 - **[VetLog](https://github.com/josdem/py-vetlog-calendar/pull/150)** · veterinary reminder scheduler, Python: pets that already have medical logs no longer appear on the missing-log reminder list. The test covers a household where only one pet needs a reminder.
 
-## Things I build
-
-- **[ContextPack](https://github.com/HeyItWorked/ContextPack)** · Python: packs project files into a fixed input limit and reports what it left out.
-- **[RiverRoot](https://github.com/HeyItWorked/RiverRoot)** · Go: a small self-hosted CI server that runs pipeline steps on the host or in containers.
-- **[MedCVE](https://github.com/HeyItWorked/MedCVE)** · Python and pandas: explores healthcare-tagged CVE records in a static dashboard.
-
 ## GitHub activity
 
 <img alt="GitHub contribution history and profile summary for HeyItWorked" src="profile-summary-card-output/zenburn/0-profile-details.svg" width="100%">
