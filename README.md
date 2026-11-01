@@ -11,6 +11,23 @@ I work on healthcare software and the small tools around it. Most of my open-sou
   <a href="https://liamnguyenn.com/contact/">Contact</a>
 </p>
 
+## Featured: Health IT Semester
+
+<a href="https://heyitworked.github.io/health-it-semester/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HeyItWorked/health-it-semester/main/.github/assets/preview-dark.png">
+    <img alt="Health IT Semester: the course home page" src="https://raw.githubusercontent.com/HeyItWorked/health-it-semester/main/.github/assets/preview-light.png" width="100%">
+  </picture>
+</a>
+
+**[Health IT Semester](https://heyitworked.github.io/health-it-semester/)** is my seven-week, hands-on course for new CS grads joining healthcare IT in the US and Canada: HL7 v2, FHIR, clinical data, privacy and shipping. Its 100 terminal sessions were each run against a real lab, with the output shown as captured, and every patient in it is synthetic.
+
+<p align="center">
+  <a href="https://heyitworked.github.io/health-it-semester/"><b>Start the course</b></a> &nbsp; / &nbsp;
+  <a href="https://github.com/HeyItWorked/health-it-semester">Repository</a> &nbsp; / &nbsp;
+  <a href="https://github.com/HeyItWorked/health-it-semester/releases/tag/v1.0.0">v1.0.0 release</a>
+</p>
+
 ## Work that landed upstream
 
 - **[Nocturne](https://github.com/nightscout/nocturne/pull/2267)** — Made the C# time-query echo use the same filter parsing as the time endpoints, with regression tests for repeated parameters and other edge cases. [Merged PRs](https://liamnguyenn.com/portfolio/nocturne/) also cover API capability reporting and shared test setup.
