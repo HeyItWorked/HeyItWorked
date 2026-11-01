@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Liam — HeyItWorked. Open source. Connected care. FHIR, DICOM and clinical tools." src="assets/header-light.svg" width="100%">
+  <img alt="Liam · @HeyItWorked. Healthcare software and the small tools around it. Reproduce the bug, fix it, prove it with a test someone else can run. FHIR, HL7 v2, DICOM, EMRs." src="assets/header-light.svg" width="100%">
 </picture>
 
 I work on healthcare software and the small tools around it. Most of my open-source work starts with a bug I can reproduce, then a fix and a test someone else can run.
