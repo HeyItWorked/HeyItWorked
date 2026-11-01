@@ -3,7 +3,7 @@
   <img alt="Liam · @HeyItWorked. Healthcare software and the small tools around it. Reproduce the bug, fix it, prove it with a test someone else can run. FHIR, HL7 v2, DICOM, EMRs." src="assets/header-light.svg" width="100%">
 </picture>
 
-I work on healthcare software and the small tools around it. Most of my open-source work starts with a bug I can reproduce, then a fix and a test someone else can run.
+I'm Liam, based in Massachusetts. I work on healthcare software (FHIR and HL7 interfaces, EMRs, medical imaging) and contribute fixes to the open-source projects behind it, each with a test someone else can run.
 
 <p align="center">
   <a href="https://liamnguyenn.com">Website</a> &nbsp; / &nbsp;
@@ -20,7 +20,7 @@ I work on healthcare software and the small tools around it. Most of my open-sou
   </picture>
 </a>
 
-**[Health IT Semester](https://heyitworked.github.io/health-it-semester/)** is my seven-week, hands-on course for new CS grads joining healthcare IT in the US and Canada: HL7 v2, FHIR, clinical data, privacy and shipping. Its 100 terminal sessions were each run against a real lab, with the output shown as captured, and every patient in it is synthetic.
+**[Health IT Semester](https://heyitworked.github.io/health-it-semester/)** is my free, seven-week course for new CS grads heading into healthcare IT in the US and Canada. It covers HL7 v2, FHIR, clinical data, privacy and shipping through 100 terminal sessions run against a real lab, using synthetic patients only.
 
 <p align="center">
   <a href="https://heyitworked.github.io/health-it-semester/"><b>Start the course</b></a> &nbsp; / &nbsp;
@@ -28,19 +28,18 @@ I work on healthcare software and the small tools around it. Most of my open-sou
   <a href="https://github.com/HeyItWorked/health-it-semester/releases/tag/v1.0.0">v1.0.0 release</a>
 </p>
 
-## Work that landed upstream
+## Merged upstream
 
-- **[Nocturne](https://github.com/nightscout/nocturne/pull/2267)** — Made the C# time-query echo use the same filter parsing as the time endpoints, with regression tests for repeated parameters and other edge cases. [Merged PRs](https://liamnguyenn.com/portfolio/nocturne/) also cover API capability reporting and shared test setup.
-- **[VetLog](https://github.com/josdem/py-vetlog-calendar/pull/150)** — Fixed Python reminder filtering so pets with existing medical logs stay out of the missing-log list. The test includes a household where only one pet needs a reminder.
-- **[CARLOS EMR](https://github.com/carlos-emr/carlos/pull/5123)** — Fixed a JavaScript typo in the Mental Health Referral and Assessment forms. A [second merged PR](https://github.com/carlos-emr/carlos/pull/5124) removed a missing stylesheet request from the Position Hazard form; browser checks cover both fixes.
-
-I also have proposals open for [Firely .NET SDK](https://github.com/FirelyTeam/firely-net-sdk/pull/3643) and [fo-dicom](https://github.com/fo-dicom/fo-dicom/pull/2197). Those are **under review**, not shipped fixes.
+- **[Nocturne](https://github.com/nightscout/nocturne/pull/2267)** · diabetes management platform, C#: made the v1 `/times/echo` endpoint use the same query parsing as `/times`, with regression tests for repeated parameters and other edge cases. [More merged PRs](https://liamnguyenn.com/portfolio/nocturne/) cover API capability reporting and shared test setup.
+- **[fo-dicom](https://github.com/fo-dicom/fo-dicom/pull/2197)** · DICOM for .NET: fixed how `JsonDicomConverter` serializes empty single-valued text elements (ST, LT, UT), reported in [#2162](https://github.com/fo-dicom/fo-dicom/issues/2162).
+- **[CARLOS EMR](https://github.com/carlos-emr/carlos/pull/5123)** · open-source EMR for Canadian healthcare: corrected a JavaScript name error in the Mental Health Referral and Assessment forms, and [stopped a missing-stylesheet request](https://github.com/carlos-emr/carlos/pull/5124) in the Position Hazard form. Browser checks cover both.
+- **[VetLog](https://github.com/josdem/py-vetlog-calendar/pull/150)** · veterinary reminder scheduler, Python: pets that already have medical logs no longer appear on the missing-log reminder list. The test covers a household where only one pet needs a reminder.
 
 ## Things I build
 
-- **[ContextPack](https://github.com/HeyItWorked/ContextPack)** packs project files into a fixed input limit and reports what it left out. Python.
-- **[RiverRoot](https://github.com/HeyItWorked/RiverRoot)** is a small self-hosted CI server that runs pipeline steps on the host or in containers. Go.
-- **[MedCVE](https://github.com/HeyItWorked/MedCVE)** explores healthcare-tagged CVE records in a static dashboard. Python and pandas.
+- **[ContextPack](https://github.com/HeyItWorked/ContextPack)** · Python: packs project files into a fixed input limit and reports what it left out.
+- **[RiverRoot](https://github.com/HeyItWorked/RiverRoot)** · Go: a small self-hosted CI server that runs pipeline steps on the host or in containers.
+- **[MedCVE](https://github.com/HeyItWorked/MedCVE)** · Python and pandas: explores healthcare-tagged CVE records in a static dashboard.
 
 ## GitHub activity
 
@@ -55,4 +54,4 @@ I also have proposals open for [Firely .NET SDK](https://github.com/FirelyTeam/f
 <img alt="Languages by commits" src="profile-summary-card-output/zenburn/2-most-commit-language.svg" width="420">
 </details>
 
-<sub>Cards show the last successful public-activity snapshot from <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a>. Commit times use UTC, not hours worked; language mix is not proficiency.</sub>
+<sub>Cards show the latest public-activity snapshot from <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a>. Commit times are in UTC, not working hours, and the language mix isn't a measure of skill.</sub>
